@@ -1,0 +1,64 @@
+03:37:17:INFO: Compiling player sources..
+03:37:17:INFO: Run command: make
+03:37:18:INFO: Run command: mkdir ./replays
+03:37:18:INFO: Playing round 1
+03:37:21:INFO: Victory in 126 steps!
+03:37:27:INFO: Victory in 225 steps!
+03:38:36:INFO: Defeat in 400 steps!
+03:39:08:INFO: Victory in 356 steps!
+03:39:20:INFO: Victory in 132 steps!
+03:39:24:INFO: Victory in 210 steps!
+03:40:50:INFO: Defeat in 500 steps!
+03:40:58:INFO: Defeat in 178 steps!
+03:41:13:INFO: Defeat in 186 steps!
+03:41:19:INFO: Victory in 166 steps!
+03:41:19:CRITICAL: Round 1 - wins 6 / 10 - done!
+03:41:19:INFO: Playing round 2
+03:41:27:INFO: Defeat in 400 steps!
+03:41:54:INFO: Defeat in 400 steps!
+03:42:05:INFO: Defeat in 400 steps!
+03:42:40:INFO: Defeat in 400 steps!
+03:42:49:INFO: Defeat in 400 steps!
+03:42:58:INFO: Defeat in 400 steps!
+03:43:24:INFO: Defeat in 400 steps!
+03:43:31:INFO: Defeat in 400 steps!
+03:43:49:INFO: Victory in 211 steps!
+03:44:22:INFO: Defeat in 400 steps!
+03:44:22:CRITICAL: Round 2 - wins 1 / 10 - done!
+03:44:22:INFO: Playing round 3
+03:44:27:INFO: Victory in 112 steps!
+03:44:35:INFO: Defeat in 230 steps!
+03:44:50:INFO: Victory in 182 steps!
+03:45:29:INFO: Victory in 404 steps!
+03:45:36:INFO: Victory in 145 steps!
+03:45:46:INFO: Victory in 177 steps!
+03:46:18:INFO: Defeat in 192 steps!
+03:46:27:INFO: Victory in 500 steps!
+03:46:57:INFO: Defeat in 294 steps!
+03:47:01:INFO: Victory in 300 steps!
+03:47:01:CRITICAL: Round 3 - wins 7 / 10 - done!
+03:47:01:INFO: Playing round 4
+03:47:13:INFO: Defeat in 186 steps!
+03:47:35:INFO: Defeat in 400 steps!
+03:47:48:INFO: Victory in 400 steps!
+03:48:01:INFO: Defeat in 168 steps!
+03:48:17:INFO: Defeat in 400 steps!
+03:48:33:INFO: Defeat in 199 steps!
+03:48:48:INFO: Defeat in 196 steps!
+03:48:58:INFO: Defeat in 182 steps!
+03:49:13:INFO: Defeat in 221 steps!
+03:49:26:INFO: Defeat in 166 steps!
+03:49:26:CRITICAL: Round 4 - wins 1 / 10 - done!
+03:49:26:INFO: Playing round 5
+03:49:41:INFO: Defeat in 224 steps!
+03:49:56:INFO: Defeat in 174 steps!
+03:50:09:INFO: Victory in 213 steps!
+03:50:35:INFO: Victory in 340 steps!
+03:50:52:INFO: Victory in 238 steps!
+03:51:08:INFO: Defeat in 196 steps!
+03:51:29:INFO: Victory in 209 steps!
+03:51:44:INFO: Defeat in 226 steps!
+03:52:02:INFO: Defeat in 205 steps!
+03:52:20:INFO: Victory in 177 steps!
+03:52:20:CRITICAL: Round 5 - wins 5 / 10 - done!
+03:52:20:CRITICAL: Scored 58.75/100.0 points

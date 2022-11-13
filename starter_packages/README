@@ -1,0 +1,58 @@
+# Profeanu Ioana, Iordache Madalina-Gabriela, Bubatu Claudiu-Mihai, 323CA
+# Party Maine la 5 Team
+# README file
+-------------------------------------------------------------------------------
+* Program Description *
+   ~ Implemented a basic Java Halite bot that is optimal for a diversity of
+   maps and is capable of both expanding and attacking the incoming enemy.
+-------------------------------------------------------------------------------
+* Project Structure Details *
+    ~ the project contains the Java files with the implemented bot, including
+    the MyBot.java file where the bot logic is actually implemented; it also
+    contains this README file and a Makefile, with the “make clean”, “make
+    build” for compiling, and “make run” for running the bot. 
+-------------------------------------------------------------------------------
+* Strategies and used algorithms *
+   ~ For each cell of the map, calculate the next move as follows:
+        ~ first, check if the cell is at the border by checking if the neighbor
+        cells are not owned by us;
+        ~ if the cell is located at the border, the strategy is the following:
+            - for each neighbor cell relative to the current cell, calculate
+            how many of its neighbors are owned by the enemy; the move will be
+            done in the direction where the said number of enemies is the
+            highest, to make an overkill;
+            - otherwise, calculate the direction with the highest production
+            per strength ratio; if the current cell strength is lower than that
+            of the previously calculated cell, stay still; otherwise, move
+            in the direction of that cell;
+        ~ if the cell is not at the border, the strategy is the following:
+            - is the strength of the current cell is at least five times lower
+            than the production and is lower than 255 (maximum strength) as
+            well, then stay still, because this way it is more, profitable to
+            gain strength rather than expand;
+            - otherwise, for each neighbor cell of the current cell, calculate
+            the number of required cells that have to be conquered in the dire-
+            ction of the cell until reaching the border; the move will be made
+            towards the direction to where the shortest path is found;
+        ~ in the end, if none of the previous strategies are matched, the next
+        move will be standing in the same position
+-------------------------------------------------------------------------------
+* Members Responsability *
+~ Each member of the team equally participated in the making of this project.
+The initial game research was made by Claudiu, then the code writing and
+algorithm management was made together (we gathered together multiple times,
+each of us came with different ideas, eg. the shortest path idea was Claudiu's,
+the enemy detection for overkill was Ioana's idea, and the idea of dividing
+the cells into those that are at the border and those that are in the center,
+as well as the strength production ratios were Madalina's idea).
+-------------------------------------------------------------------------------
+* Notes *
+~ The bot's best features are its efficiency to overkill the enemy and predict
+incoming attacks, and has relatively good expansion on maps with low-medium
+strength cells.
+~ The checker score that we received is around 63 points.
+-------------------------------------------------------------------------------
+* Resources *
+~ http://2016.forums.halite.io/t/so-youve-improved-the-random-bot-now-what/482
+~ https://github.com/moonbirth/halite/blob/master/MyBot.cpp
+-------------------------------------------------------------------------------
